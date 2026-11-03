@@ -1,0 +1,18 @@
+name: oemof-tutorial
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - jupyter
+  - ipykernel
+  - pandas
+  - numpy
+  - matplotlib
+  - graphviz
+  - pip
+  - pip:
+      - oemof.solph
+      - oemof.visio
+      - highspy
