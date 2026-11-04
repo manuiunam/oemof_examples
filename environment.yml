@@ -5,12 +5,12 @@ channels:
 
 dependencies:
   - python=3.12
-  - jupyter
+  - jupyter=1.1.1
   - ipykernel
-  - pandas
-  - numpy
-  - matplotlib
-  - graphviz
+  - pandas=3.1.0
+  - numpy=2.5.4
+  - matplotlib=3.11.2
+#  - graphviz
   - pip
   - pip:
       - oemof.solph
